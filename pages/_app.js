@@ -1,4 +1,5 @@
 //estilo global
+
 function GlobalStyle() {
     return (
         <style global jsx>{`

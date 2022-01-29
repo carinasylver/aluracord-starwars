@@ -73,7 +73,7 @@ export default function HomePage() {
                         onSubmit={function (infosDoEvento) {
                             infosDoEvento.preventDefault();
                             console.log('alguém submeteu o form');
-                            roteamento.push('/chat');
+                            roteamento.push(`/chat?username=${username}`);
                             //window.location.href = '/chat'
                         }}
                         styleSheet={{
