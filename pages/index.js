@@ -22,20 +22,6 @@ function Title(props) {
     );
 }
 
-//componente react
-// function HomePage() {
-//     //jsx
-//     return (
-//         <div>
-//             <GlobalStyle/>
-//             <Title>Boas vindas de volta!</Title> 
-//             <h2>Discord - Alura Matrix</h2>      
-//         </div>
-//     )
-//   }
-
-//   export default HomePage
-
 export default function HomePage() {
     //const username = 'carinasylver';
     const [username, setUsername] = React.useState('carinasylver');
